@@ -43,18 +43,13 @@
 </section>
 <section id="p2">
 <h1>成都必吃美食</h1>
-<form action="#" name="search">
-<table border="0" align="center" cellpadding="0" cellspacing="0" class="tab_search">
-  <tr>
-		<td>
-			<input type="text" name="q" title="Search" class="searchinput" id="searchinput" onkeydown="if (event.keyCode==13) {}" onblur="if(this.value=='')value='- Search Products -';" onfocus="if(this.value=='- Search Products -')value='';" value="- Search Products -" size="10"/>
-		</td>
-		<td>
-			<input type="image" width="21" height="17" class="searchaction" onclick="if(document.forms['search'].searchinput.value=='- Search Products -')document.forms['search'].searchinput.value='';" alt="Search" src="images/magglass.gif" border="0" hspace="2"/>
-		</td>
-	</tr>
-</table>
+<form action="#" name="search" id="form1">
+
+			<input type="text" name="foodName" class="search"/>
+			<button type="submit" onclick="add()">查询</button>
+
 </form>
+
 
 <br></br>
 <section id="p3">
@@ -119,6 +114,27 @@
 <h2>制作成员：何文&杜欢 | 班级：计算机科学与技术5班 | 联系电话：18781960256</h2>
 <h2>地址：成都市高新西区百叶路1号电子科技大学成都学院</h2>
 </footer>
-<audio src="duomeiti/Kristen Anderson-Lopez;Robert Lopez - In Summer.mp3" autoplay loop>
+
+<script src="../static/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+
+function add(){
+    var optionJson=[];
+    
+    $.ajax({
+        type:"post",
+        url:"/food/search",
+        data: $('#form1').serialize(),
+        async: false,
+        success:function (result) {
+    console.log(result);//打印服务端返回的数据(调试用)
+
+    alert(result.foodMessage);
+        }
+    });
+   
+}
+</script>
+
 </body>
 </html>
