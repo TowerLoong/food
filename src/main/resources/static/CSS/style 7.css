@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+header p{width:100%;
+         height:80px;
+         font-size:60px;
+		 font-style:italic;
+		 font-weight:bold;
+         color:#600;
+         text-align:left;
+         font-weight:700;
+         padding-top:10px;
+}
+header nav{width:100%;
+           height:50px;
+		   background-color:#F30;
+		   padding-top:20px;
+		   border-top-left-radius:10px;
+		   border-top-right-radius:10px;
+		   border-bottom-left-radius:10px;
+		   border-bottom-right-radius:10px;
+}
+header nav ul{list-style:none;}
+header nav ul li{float:left;
+                 width:130px;
+}
+header nav ul li a{text-decoration:none;
+                   font-size:20px;
+				   text-align:center;
+}
+a:link{color:#EE9B30;}
+a:hover{color:#F00;}
+a:active{color:#F90;}
+a:visited{color:#F90;}
+section#p1{display:block;
+           float:left;
+		   width:680px;
+		   height:580px;
+		   background-color:#FFF;
+		   margin-top: 20px;
+}
+section#p1 h1{float:left;
+              width:100%;
+			  text-align:left;
+              font-size:20px;
+			  font-weight:bold;
+}
+section#p1 section{margin-left:20px;
+                   width:90%;
+                   height: 85%;
+	               -webkit-box-shadow:1px 1px 3px #292929;
+		           -moz-box-shadow:1px 1px 3px #292929;
+		           box-shadow:1px 1px 3px #292929;
+}
+section#p1 section table{margin-left:10px;
+}
+section#p2{display:block;
+           float:right;
+		   width:28%;
+		   height:610px;
+		   background-color:#FFF;
+}
+section#p2 section a{font-size:20px;
+                     text-align:center;
+					 font-weight:bold;
+					 text-decoration:none;
+					 float:left;
+                     width:100%;
+					 display:block;
+}
+section#p5{display:block;
+           float:left;
+		   width:100%;
+		   background-color:#CCC;
+		   border-top-left-radius:10px;
+		   border-top-right-radius:10px;
+		   border-bottom-left-radius:10px;
+		   border-bottom-right-radius:10px;
+}
+section#p5 footer section p{text-align:center;}
+footer section{float:left;
+               width:320px;
+			   padding:0px;
+}
+footer section h2{list-style:none;}
+footer section h2 a{font-size:20px;
+                  font-weight:bold;
+				  font-style:normal;
+				  color:#000;
+				  text-decoration:none;
+}
+footer section p{list-style:none;}
+footer section p a{font-size:16px;
+                   font-weight:bold;
+				   font-style:normal;
+				   color:#000;
+				   text-decoration:none;
+}
+footer h2{list-style:none;}
+footer h2 a{float:left;
+	        width:100%;
+            font-size:20px;
+			text-align:center;
+		    font-style:italic;
+		    color:#000;
+		    text-decoration:none;
+}
+marquee{float:left;
+	       width:100%;
+           height:20px;
+		   background-color:#F60;
+		   padding-top:10px;
+		   font-style:italic;
+		   font-weight:bold;   
+}
+marquee h1{color:#F00;}
+footer#page_footer h2{float:left;
+	                  width:100%;
+                      text-align:center;
+}
+
+.allregist{
+	width: 300px;
+	height: 200px;
+	padding-left: 10px;
+	margin-top: 50px;
+}
+
+.regist{
+	margin-bottom: 10px;
+	margin-left: 5px;;
+	padding-left: 5px;
+	border-radius: 2px;
+}
+
+.subbutton{
+	width: 70px;
+	height: 30px;
+	background-color: #85f304;
+	border-radius: 5px;
+	margin-left: 130px;
+	margin-top: 10px;
+	
+}
+
+.line{
+	2width: 200px;
+	border-style: dotted;
+	margin-bottom: 20px;
+}
+
+.sex{
+	
+	margin-left: 20px;
+}
+
+.age{
+	
+	margin-left: 20px;
+}

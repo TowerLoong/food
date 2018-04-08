@@ -1,5 +1,8 @@
 package com.food.service.impl;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,6 +23,15 @@ public class UserInfoServiceImpl implements IUserInfoService{
 		userInfoDao.save(userInfo);
 		
 		return true;
+	}
+
+	@Override
+	public List<UserInfo> findUserInfo(UserInfo temp) {
+		// TODO Auto-generated method stub
+		List<UserInfo> userList = new ArrayList<UserInfo>();
+		userList = userInfoDao.findUserInfo(temp.getUserName(),temp.getUserPass());
+		
+		return userList;
 	}	
 	
 }

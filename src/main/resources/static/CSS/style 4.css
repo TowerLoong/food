@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul li
+{
+list-style-type:none;
+}
+
+header p{width:100%;
+         height:80px;
+         font-size:60px;
+		 font-style:italic;
+		 font-weight:bold;
+         color:#600;
+         text-align:left;
+         font-weight:700;
+         padding-top:10px;
+}
+header nav{width:100%;
+           height:50px;
+		   background-color:#F30;
+		   padding-top:20px;
+		   border-top-left-radius:10px;
+		   border-top-right-radius:10px;
+		   border-bottom-left-radius:10px;
+		   border-bottom-right-radius:10px;
+}
+header nav ul{list-style:none;}
+header nav ul li{float:left;
+                 width:130px;
+}
+header nav ul li a{text-decoration:none;
+                   font-size:20px;
+				   text-align:center;
+}
+a:link{color:#FFF;}
+a:hover{color:#F00;}
+a:active{color:#F90;}
+a:visited{color:#F90;}
+section#p1{display:block;
+           float:right;
+		   width:70%;
+		   height:auto;
+		   background-color:#FFF;
+}
+section#p2{display:block;
+           float:left;
+		   width:31%;
+		   height:auto;
+		   background-color:#FFF;
+}
+section#p3{display:block;
+           float:right;
+		   width:68%;
+		   height:auto;
+		   background-color:#FFF;
+}
+section#p1 article{display:block;
+           float:left;
+		   width:95%;
+		   height:auto;
+		   background-color:#FFF;
+		   margin-left:8px;
+		   margin-right:8px;
+		   margin-top:20px;
+		   margin-bottom:20px;
+		   border-top-left-radius:10px;
+		   border-top-right-radius:10px;
+		   border-bottom-left-radius:10px;
+		   border-bottom-right-radius:10px;
+		   -webkit-box-shadow:1px 1px 3px #292929;
+		   -moz-box-shadow:1px 1px 3px #292929;
+		   box-shadow:1px 1px 3px #292929;
+}
+section#p1 h1{float:left;
+              width:100%;
+			  text-align:left;
+              font-size:20px;
+			  font-weight:bold;
+}
+section#p1 article h1 a{display:block;
+			            text-align:right;
+}
+section#p4{display:block;
+           float:left;
+		   width:29%;
+		   height:900px;
+		   background-color:#FF9;
+		   border-top-left-radius:10px;
+		   border-top-right-radius:10px;
+		   border-bottom-left-radius:10px;
+		   border-bottom-right-radius:10px;
+		   -webkit-box-shadow:1px 1px 3px #292929;
+		   -moz-box-shadow:1px 1px 3px #292929;
+		   box-shadow:1px 1px 3px #292929;
+}
+section#p4 article{display:block;
+           float:left;
+		   width:94%;
+		   height:auto;
+		   background-color:#FFF;
+		   margin-left:10px;
+		   margin-right:10px;
+		   margin-top:20px;
+		   margin-bottom:20px;
+		   -webkit-box-shadow:1px 1px 3px #292929;
+		   -moz-box-shadow:1px 1px 3px #292929;
+		   box-shadow:1px 1px 3px #292929;
+}
+section#p4 h1{float:left;
+              width:100%;
+			  text-align:left;
+              font-size:20px;
+			  font-weight:bold;
+}
+section#p4 p{float:left;
+              width:100%;
+			  text-align:left;
+              font-size:12px;
+			  color:#999;
+}
+section#p4 article section{display:block;
+           float:left;
+		   width:50%;
+}
+section#p5{display:block;
+           float:left;
+		   width:100%;
+		   background-color:#CCC;
+		   border-top-left-radius:10px;
+		   border-top-right-radius:10px;
+		   border-bottom-left-radius:10px;
+		   border-bottom-right-radius:10px;
+}
+section#p5 footer section p{text-align:center;}
+footer section{float:left;
+               width:320px;
+			   padding:0px;
+}
+footer section h2{list-style:none;}
+footer section h2 a{font-size:20px;
+                  font-weight:bold;
+				  font-style:normal;
+				  color:#000;
+				  text-decoration:none;
+}
+footer section p{list-style:none;}
+footer section p a{font-size:16px;
+                   font-weight:bold;
+				   font-style:normal;
+				   color:#000;
+				   text-decoration:none;
+}
+footer h2{list-style:none;}
+footer h2 a{float:left;
+	        width:100%;
+            font-size:20px;
+			text-align:center;
+		    font-style:italic;
+		    color:#000;
+		    text-decoration:none;
+}
+marquee{float:left;
+	       width:100%;
+           height:20px;
+		   background-color:#F60;
+		   padding-top:10px;
+		   font-style:italic;
+		   font-weight:bold;   
+}
+marquee h1{color:#F00;}
+footer#page_footer h2{float:left;
+	                  width:100%;
+                      text-align:center;
+}

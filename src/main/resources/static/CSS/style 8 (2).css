@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+header p{width:100%;
+         height:80px;
+         font-size:60px;
+		 font-style:italic;
+		 font-weight:bold;
+         color:#600;
+         text-align:left;
+         font-weight:700;
+         padding-top:10px;
+}
+header nav{width:100%;
+           height:50px;
+		   background-color:#F30;
+		   padding-top:20px;
+		   border-top-left-radius:10px;
+		   border-top-right-radius:10px;
+		   border-bottom-left-radius:10px;
+		   border-bottom-right-radius:10px;
+}
+header nav ul{list-style:none;}
+header nav ul li{float:left;
+                 width:130px;
+}
+header nav ul li a{text-decoration:none;
+                   font-size:20px;
+				   text-align:center;
+}
+a:link{color:#FFF;}
+a:hover{color:#F00;}
+a:active{color:#F90;}
+a:visited{color:#F90;}
+section#p1{display:block;
+           float:left;
+		   width:60%;
+		   height:auto;
+		   background-color:#FFF;
+}
+section#p1 h1{float:left;
+              width:100%;
+			  text-align:center;
+              font-size:30px;
+			  font-weight:bold;
+}
+section#p1 section{margin-left:30px;
+                   width:80%;
+	               -webkit-box-shadow:1px 1px 3px #292929;
+		           -moz-box-shadow:1px 1px 3px #292929;
+		           box-shadow:1px 1px 3px #292929;
+}
+section#p1 section table{margin-left:50px;
+}
+section#p1 section table a{text-decoration:none;}
+section#p2{display:block;
+           float:right;
+		   width:40%;
+		   height:373px;
+		   background-color:#FFF;
+}
+section#p2 section a{font-size:20px;
+                     text-align:center;
+					 font-weight:bold;
+					 text-decoration:none;
+					 float:left;
+                     width:100%;
+					 display:block;
+}
+section#p5{display:block;
+           float:left;
+		   width:100%;
+		   background-color:#CCC;
+		   border-top-left-radius:10px;
+		   border-top-right-radius:10px;
+		   border-bottom-left-radius:10px;
+		   border-bottom-right-radius:10px;
+}
+section#p5 footer section p{text-align:center;}
+footer section{float:left;
+               width:320px;
+			   padding:0px;
+}
+footer section h2{list-style:none;}
+footer section h2 a{font-size:20px;
+                  font-weight:bold;
+				  font-style:normal;
+				  color:#000;
+				  text-decoration:none;
+}
+footer section p{list-style:none;}
+footer section p a{font-size:16px;
+                   font-weight:bold;
+				   font-style:normal;
+				   color:#000;
+				   text-decoration:none;
+}
+footer h2{list-style:none;}
+footer h2 a{float:left;
+	        width:100%;
+            font-size:20px;
+			text-align:center;
+		    font-style:italic;
+		    color:#000;
+		    text-decoration:none;
+}
+marquee{float:left;
+	       width:100%;
+           height:20px;
+		   background-color:#F60;
+		   padding-top:10px;
+		   font-style:italic;
+		   font-weight:bold;   
+}
+marquee h1{color:#F00;}
+footer#page_footer h2{float:left;
+	                  width:100%;
+                      text-align:center;
+}

@@ -1,5 +1,8 @@
 package com.food.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
@@ -23,5 +26,19 @@ public class UserInfoAction {
 		userInfoService.saveUserInfo(userInfo);
 		
 		return userInfo;
+	}
+	
+	@RequestMapping("/login")
+	@ResponseBody 
+	public String login(UserInfo userInfo){
+		
+		List<UserInfo> temp = new ArrayList<UserInfo>();
+		temp = userInfoService.findUserInfo(userInfo);
+		if(temp.size() == 0){
+			return "0";
+		}else{
+			return "1";
+		}
+		
 	}
 }
